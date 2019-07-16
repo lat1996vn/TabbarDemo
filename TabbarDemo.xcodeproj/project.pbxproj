@@ -18,6 +18,12 @@
 		043F796B22D4293100379091 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F796A22D4293100379091 /* TabBarController.swift */; };
 		043F796D22D429D300379091 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F796C22D429D300379091 /* FollowVC.swift */; };
 		043F796F22D429E200379091 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F796E22D429E200379091 /* FavoriteVC.swift */; };
+		0445F82C22DD5F83003D041B /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445F82B22DD5F83003D041B /* TagViewController.swift */; };
+		0445F82E22DD60A3003D041B /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445F82D22DD60A2003D041B /* LeftAlignedCollectionViewFlowLayout.swift */; };
+		0445F83022DD61C3003D041B /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445F82F22DD61C3003D041B /* TagCell.swift */; };
+		0445F83222DD763A003D041B /* PopularAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445F83122DD763A003D041B /* PopularAreaViewController.swift */; };
+		0445F83422DD7664003D041B /* AllAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445F83322DD7664003D041B /* AllAreaViewController.swift */; };
+		0445F83622DD7C2B003D041B /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445F83522DD7C2B003D041B /* ImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		043F796A22D4293100379091 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		043F796C22D429D300379091 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		043F796E22D429E200379091 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		0445F82B22DD5F83003D041B /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		0445F82D22DD60A2003D041B /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		0445F82F22DD61C3003D041B /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		0445F83122DD763A003D041B /* PopularAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularAreaViewController.swift; sourceTree = "<group>"; };
+		0445F83322DD7664003D041B /* AllAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAreaViewController.swift; sourceTree = "<group>"; };
+		0445F83522DD7C2B003D041B /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +62,10 @@
 		042FA3C222D589FC007B95BB /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0445F82A22DD5F34003D041B /* Search */,
 				043F796A22D4293100379091 /* TabBarController.swift */,
 				043F795A22D421D800379091 /* FeedVC.swift */,
 				043F796C22D429D300379091 /* FollowVC.swift */,
-				042FA3C022D589F0007B95BB /* SearchVC.swift */,
 				043F796E22D429E200379091 /* FavoriteVC.swift */,
 				042FA3C322D58A5F007B95BB /* SettingVC.swift */,
 			);
@@ -96,6 +108,20 @@
 				0400455922DC6A7800443FF7 /* PaddingTexField.swift */,
 			);
 			path = TabbarDemo;
+			sourceTree = "<group>";
+		};
+		0445F82A22DD5F34003D041B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				042FA3C022D589F0007B95BB /* SearchVC.swift */,
+				0445F82B22DD5F83003D041B /* TagViewController.swift */,
+				0445F82F22DD61C3003D041B /* TagCell.swift */,
+				0445F82D22DD60A2003D041B /* LeftAlignedCollectionViewFlowLayout.swift */,
+				0445F83122DD763A003D041B /* PopularAreaViewController.swift */,
+				0445F83322DD7664003D041B /* AllAreaViewController.swift */,
+				0445F83522DD7C2B003D041B /* ImageCell.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +196,17 @@
 			files = (
 				042FA3C122D589F0007B95BB /* SearchVC.swift in Sources */,
 				042FA3C422D58A5F007B95BB /* SettingVC.swift in Sources */,
+				0445F83622DD7C2B003D041B /* ImageCell.swift in Sources */,
 				043F796F22D429E200379091 /* FavoriteVC.swift in Sources */,
+				0445F82E22DD60A3003D041B /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				043F796B22D4293100379091 /* TabBarController.swift in Sources */,
 				043F795B22D421D800379091 /* FeedVC.swift in Sources */,
 				043F796D22D429D300379091 /* FollowVC.swift in Sources */,
+				0445F83222DD763A003D041B /* PopularAreaViewController.swift in Sources */,
 				0400455A22DC6A7800443FF7 /* PaddingTexField.swift in Sources */,
+				0445F83022DD61C3003D041B /* TagCell.swift in Sources */,
+				0445F82C22DD5F83003D041B /* TagViewController.swift in Sources */,
+				0445F83422DD7664003D041B /* AllAreaViewController.swift in Sources */,
 				042FA3E722D5DE23007B95BB /* ToDoWorkCell.swift in Sources */,
 				043F795922D421D800379091 /* AppDelegate.swift in Sources */,
 			);
